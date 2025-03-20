@@ -1,0 +1,77 @@
+Training environment: CustomCarRacingEasy-v0
+State dimension: (96, 96, 3)
+Action dimension: 5
+Setting random seed to 42
+Starting training...
+Episode 1 | Reward: 15637.70 | Length: 2000
+New best model saved with reward 15637.70
+Updating policy at timestep 4000...
+/Users/linji/miniconda3/envs/torch/lib/python3.9/site-packages/torch/nn/modules/loss.py:610: UserWarning: Using a target size (torch.Size([4000])) that is different to the input size (torch.Size([4000, 1])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)
+Episode 2 | Reward: 16061.62 | Length: 2000
+New best model saved with reward 16061.62
+Episode 3 | Reward: 16742.11 | Length: 2000
+New best model saved with reward 16742.11
+Updating policy at timestep 8000...
+Episode 4 | Reward: 15089.87 | Length: 2000
+Episode 5 | Reward: 16171.19 | Length: 2000
+Updating policy at timestep 12000...
+Episode 6 | Reward: 15089.87 | Length: 2000
+Episode 7 | Reward: 13014.75 | Length: 2000
+Updating policy at timestep 16000...
+Episode 8 | Reward: 14314.41 | Length: 2000
+Episode 9 | Reward: 17418.25 | Length: 2000
+New best model saved with reward 17418.25
+Updating policy at timestep 20000...
+Episode 10 | Reward: 15484.42 | Length: 2000
+Last 10 episodes: Avg reward: 15502.42 | Avg length: 2000.00
+Episode 11 | Reward: 17166.19 | Length: 2000
+Updating policy at timestep 24000...
+Episode 12 | Reward: 15484.42 | Length: 2000
+Episode 13 | Reward: 16801.41 | Length: 2000
+Updating policy at timestep 28000...
+Episode 14 | Reward: 17104.30 | Length: 2000
+Episode 15 | Reward: 17482.42 | Length: 2000
+New best model saved with reward 17482.42
+Updating policy at timestep 32000...
+Episode 16 | Reward: 15689.47 | Length: 2000
+Episode 17 | Reward: 16566.67 | Length: 2000
+Updating policy at timestep 36000...
+Episode 18 | Reward: 17228.52 | Length: 2000
+Episode 19 | Reward: 17945.11 | Length: 2000
+New best model saved with reward 17945.11
+Updating policy at timestep 40000...
+Episode 20 | Reward: 17104.30 | Length: 2000
+Last 10 episodes: Avg reward: 16857.28 | Avg length: 2000.00
+Episode 21 | Reward: 15484.42 | Length: 2000
+Updating policy at timestep 44000...
+Episode 22 | Reward: 16509.00 | Length: 2000
+Episode 23 | Reward: 17042.86 | Length: 2000
+Updating policy at timestep 48000...
+Episode 24 | Reward: 16061.62 | Length: 2000
+Episode 25 | Reward: 15138.10 | Length: 2000
+Updating policy at timestep 52000...
+Episode 26 | Reward: 14714.81 | Length: 2000
+Episode 27 | Reward: 15900.00 | Length: 2000
+Updating policy at timestep 56000...
+Episode 28 | Reward: 16282.25 | Length: 2000
+Episode 29 | Reward: 16861.13 | Length: 2000
+Traceback (most recent call last):
+  File "/Users/linji/Downloads/test_torch/train_custom_carracing.py", line 489, in <module>
+    train(env_name, has_continuous_action_space, action_std_init, random_seed=42)
+  File "/Users/linji/Downloads/test_torch/train_custom_carracing.py", line 368, in train
+    action = ppo_agent.select_action(state)
+  File "/Users/linji/Downloads/test_torch/train_custom_carracing.py", line 156, in select_action
+    action, action_logprob, state_val = self.policy_old.act(encoded_state)
+  File "/Users/linji/Downloads/test_torch/PPO_PyTorch/PPO.py", line 94, in act
+    dist = Categorical(action_probs)
+  File "/Users/linji/miniconda3/envs/torch/lib/python3.9/site-packages/torch/distributions/categorical.py", line 72, in __init__
+    super().__init__(batch_shape, validate_args=validate_args)
+  File "/Users/linji/miniconda3/envs/torch/lib/python3.9/site-packages/torch/distributions/distribution.py", line 70, in __init__
+    if not valid.all():
+KeyboardInterrupt
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/Users/linji/miniconda3/envs/torch/lib/python3.9/threading.py", line 1080, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt

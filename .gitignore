@@ -1,0 +1,4 @@
+# Ignore nested Git repositories
+PPO_PyTorch/
+PyTorch-CycleGAN/
+*.pth

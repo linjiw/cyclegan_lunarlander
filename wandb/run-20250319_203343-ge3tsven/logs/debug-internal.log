@@ -1,0 +1,17 @@
+{"time":"2025-03-19T20:33:43.793621-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/linji/Downloads/test_torch/wandb/run-20250319_203343-ge3tsven/logs/debug-core.log"}
+{"time":"2025-03-19T20:33:43.902119-04:00","level":"INFO","msg":"created new stream","id":"ge3tsven"}
+{"time":"2025-03-19T20:33:43.902163-04:00","level":"INFO","msg":"stream: started","id":"ge3tsven"}
+{"time":"2025-03-19T20:33:43.902277-04:00","level":"INFO","msg":"handler: started","stream_id":"ge3tsven"}
+{"time":"2025-03-19T20:33:43.902388-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"ge3tsven"}
+{"time":"2025-03-19T20:33:43.902479-04:00","level":"INFO","msg":"sender: started","stream_id":"ge3tsven"}
+{"time":"2025-03-19T20:33:44.205733-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-19T20:33:44.206371-04:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-03-19T20:33:57.543185-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-19T20:33:57.544189-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-19T20:33:58.286534-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-19T20:33:58.546965-04:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-2219, summary, console lines 4-2244","runtime_seconds":0.255446792}],"total_operations":1}}
+{"time":"2025-03-19T20:33:58.755222-04:00","level":"INFO","msg":"stream: closing","id":"ge3tsven"}
+{"time":"2025-03-19T20:33:58.755294-04:00","level":"INFO","msg":"handler: closed","stream_id":"ge3tsven"}
+{"time":"2025-03-19T20:33:58.755281-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ge3tsven"}
+{"time":"2025-03-19T20:33:58.755293-04:00","level":"INFO","msg":"sender: closed","stream_id":"ge3tsven"}
+{"time":"2025-03-19T20:33:58.755676-04:00","level":"INFO","msg":"stream: closed","id":"ge3tsven"}

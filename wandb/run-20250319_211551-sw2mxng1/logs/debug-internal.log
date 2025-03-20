@@ -1,0 +1,16 @@
+{"time":"2025-03-19T21:15:51.684169-04:00","level":"INFO","msg":"stream: starting","core version":"0.19.8","symlink path":"/Users/linji/Downloads/test_torch/wandb/run-20250319_211551-sw2mxng1/logs/debug-core.log"}
+{"time":"2025-03-19T21:15:51.803272-04:00","level":"INFO","msg":"created new stream","id":"sw2mxng1"}
+{"time":"2025-03-19T21:15:51.803315-04:00","level":"INFO","msg":"stream: started","id":"sw2mxng1"}
+{"time":"2025-03-19T21:15:51.803358-04:00","level":"INFO","msg":"writer: Do: started","stream_id":"sw2mxng1"}
+{"time":"2025-03-19T21:15:51.803489-04:00","level":"INFO","msg":"handler: started","stream_id":"sw2mxng1"}
+{"time":"2025-03-19T21:15:51.803706-04:00","level":"INFO","msg":"sender: started","stream_id":"sw2mxng1"}
+{"time":"2025-03-19T21:15:52.094551-04:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-19T21:15:52.095172-04:00","level":"ERROR","msg":"git repo not found","error":"repository does not exist"}
+{"time":"2025-03-19T21:15:54.303402-04:00","level":"INFO","msg":"stream: closing","id":"sw2mxng1"}
+{"time":"2025-03-19T21:15:54.303454-04:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-19T21:15:54.304076-04:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-19T21:15:54.884272-04:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-03-19T21:15:55.090326-04:00","level":"INFO","msg":"sender: closed","stream_id":"sw2mxng1"}
+{"time":"2025-03-19T21:15:55.090305-04:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sw2mxng1"}
+{"time":"2025-03-19T21:15:55.091354-04:00","level":"INFO","msg":"handler: closed","stream_id":"sw2mxng1"}
+{"time":"2025-03-19T21:15:55.091676-04:00","level":"INFO","msg":"stream: closed","id":"sw2mxng1"}

@@ -1,0 +1,5 @@
+Model → Environment,Avg. Reward,Avg. Episode Length,Success Rate (%)
+Easy Model → Easy Env,-27.41,28.72,100.0%
+Easy Model → Hard Env,-45.23,47.56,100.0%
+Hard Model → Easy Env,-27.31,28.62,100.0%
+Hard Model → Hard Env,-44.45,46.72,100.0%

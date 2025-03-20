@@ -1,0 +1,25 @@
+Training environment: CustomMountainCarEasy-v0
+State dimension: 2
+Action dimension: 3
+Setting random seed to 42
+Starting training...
+Episode 1 | Reward: -369.58 | Length: 378
+Episode 2 | Reward: -482.01 | Length: 500
+Episode 3 | Reward: -196.93 | Length: 205
+Episode 4 | Reward: -209.20 | Length: 216
+Episode 5 | Reward: -246.95 | Length: 256
+Episode 6 | Reward: -178.81 | Length: 185
+Episode 7 | Reward: -417.02 | Length: 431
+Episode 8 | Reward: -487.84 | Length: 500
+Episode 9 | Reward: -485.07 | Length: 500
+Episode 10 | Reward: -89.41 | Length: 92
+Last 10 episodes: Avg reward: -316.28 | Avg length: 326.30
+Episode 11 | Reward: -365.01 | Length: 375
+Episode 12 | Reward: -328.66 | Length: 337
+Updating policy at timestep 4000...
+Traceback (most recent call last):
+  File "/Users/linji/Downloads/test_torch/train_custom_mountaincar.py", line 259, in <module>
+    train(env_name, has_continuous_action_space, action_std_init, random_seed=42)
+  File "/Users/linji/Downloads/test_torch/train_custom_mountaincar.py", line 175, in train
+    writer.add_scalar('Loss/actor', loss_info['actor_loss'], time_step)
+TypeError: 'NoneType' object is not subscriptable

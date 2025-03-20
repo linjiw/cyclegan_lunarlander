@@ -1,0 +1,40 @@
+{
+  "os": "macOS-15.3.2-arm64-arm-64bit",
+  "python": "CPython 3.9.21",
+  "startedAt": "2025-03-20T00:33:43.789847Z",
+  "program": "/Users/linji/Downloads/test_torch/train_custom_mountaincar.py",
+  "codePath": "train_custom_mountaincar.py",
+  "email": "joewwwang1126@gmail.com",
+  "root": "/Users/linji/Downloads/test_torch",
+  "host": "Linjis-Air",
+  "executable": "/Users/linji/miniconda3/envs/torch/bin/python",
+  "codePathLocal": "train_custom_mountaincar.py",
+  "cpu_count": 10,
+  "cpu_count_logical": 10,
+  "disk": {
+    "/": {
+      "total": "494384795648",
+      "used": "119325724672"
+    },
+    "/System/Volumes/Data": {
+      "total": "494384795648",
+      "used": "119325724672"
+    }
+  },
+  "memory": {
+    "total": "17179869184"
+  },
+  "cpu": {
+    "count": 10,
+    "countLogical": 10
+  },
+  "apple": {
+    "name": "Apple M4",
+    "ecpuCores": 6,
+    "pcpuCores": 4,
+    "gpuCores": 10,
+    "memoryGb": 16,
+    "swapTotalBytes": "2147483648",
+    "ramTotalBytes": "17179869184"
+  }
+}

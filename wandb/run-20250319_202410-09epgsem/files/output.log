@@ -1,0 +1,10 @@
+Training environment: CustomMountainCarEasy-v0
+State dimension: 2
+Action dimension: 3
+Setting random seed to 42
+Traceback (most recent call last):
+  File "/Users/linji/Downloads/test_torch/train_custom_mountaincar.py", line 253, in <module>
+    train(env_name, has_continuous_action_space, action_std_init, random_seed=42)
+  File "/Users/linji/Downloads/test_torch/train_custom_mountaincar.py", line 127, in train
+    ppo_agent = PPO(state_dim, action_dim, lr_actor, lr_critic, gamma, K_epochs, eps_clip,
+TypeError: __init__() takes from 9 to 10 positional arguments but 11 were given

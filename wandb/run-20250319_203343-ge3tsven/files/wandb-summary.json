@@ -1,0 +1,1 @@
+{"Metrics/avg_reward_10":-27.05118101438966,"timestep":80000,"Metrics/episode_reward":-26.779950082999626,"_wandb":{"runtime":13},"_timestamp":1.742430836967371e+09,"_step":2219,"episode":2000,"_runtime":13.177574,"Training/policy_update":1,"Metrics/episode_length":28,"Metrics/avg_length_10":28.3}

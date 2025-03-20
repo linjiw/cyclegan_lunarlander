@@ -1,0 +1,27 @@
+Training environment: CustomCarRacingEasy-v0
+State dimension: (96, 96, 3)
+Action dimension: 5
+Setting random seed to 42
+Starting training...
+Traceback (most recent call last):
+  File "/Users/linji/Downloads/test_torch/train_custom_carracing.py", line 430, in <module>
+    train(env_name, has_continuous_action_space, action_std_init, random_seed=42)
+  File "/Users/linji/Downloads/test_torch/train_custom_carracing.py", line 309, in train
+    action = ppo_agent.select_action(state)
+  File "/Users/linji/Downloads/test_torch/train_custom_carracing.py", line 148, in select_action
+    state_val, action, action_logprob = self.policy_old.act(encoded_state)
+  File "/Users/linji/Downloads/test_torch/PPO_PyTorch/PPO.py", line 93, in act
+    action_probs = self.actor(state)
+  File "/Users/linji/miniconda3/envs/torch/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/linji/miniconda3/envs/torch/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/linji/miniconda3/envs/torch/lib/python3.9/site-packages/torch/nn/modules/container.py", line 250, in forward
+    input = module(input)
+  File "/Users/linji/miniconda3/envs/torch/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/linji/miniconda3/envs/torch/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/linji/miniconda3/envs/torch/lib/python3.9/site-packages/torch/nn/modules/linear.py", line 125, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: Tensor for argument weight is on cpu but expected on mps

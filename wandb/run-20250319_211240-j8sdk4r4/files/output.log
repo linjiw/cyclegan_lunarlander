@@ -1,0 +1,12 @@
+Training environment: CustomCarRacingEasy-v0
+State dimension: (96, 96, 3)
+Action dimension: 5
+Setting random seed to 42
+Traceback (most recent call last):
+  File "/Users/linji/Downloads/test_torch/train_custom_carracing.py", line 493, in <module>
+    train(env_name, has_continuous_action_space, action_std_init, random_seed=42)
+  File "/Users/linji/Downloads/test_torch/train_custom_carracing.py", line 354, in train
+    ppo_agent = ImagePPO(state_dim, action_dim, lr_actor, lr_critic, gamma, K_epochs, eps_clip,
+  File "/Users/linji/Downloads/test_torch/train_custom_carracing.py", line 114, in __init__
+    super(ImagePPO, self).__init__(encoder_dim, action_dim, lr_actor, lr_critic, gamma, K_epochs,
+TypeError: __init__() got an unexpected keyword argument 'device'

@@ -1,0 +1,24 @@
+Training environment: CustomMountainCarEasy-v0
+State dimension: 2
+Action dimension: 3
+Setting random seed to 42
+Traceback (most recent call last):
+  File "/Users/linji/Downloads/test_torch/train_custom_mountaincar.py", line 253, in <module>
+    train(env_name, has_continuous_action_space, action_std_init, random_seed=42)
+  File "/Users/linji/Downloads/test_torch/train_custom_mountaincar.py", line 124, in train
+    env.reset(seed=random_seed)
+  File "/Users/linji/miniconda3/envs/torch/lib/python3.9/site-packages/gymnasium/wrappers/common.py", line 146, in reset
+    return super().reset(seed=seed, options=options)
+  File "/Users/linji/miniconda3/envs/torch/lib/python3.9/site-packages/gymnasium/core.py", line 333, in reset
+    return self.env.reset(seed=seed, options=options)
+  File "/Users/linji/miniconda3/envs/torch/lib/python3.9/site-packages/gymnasium/wrappers/common.py", line 400, in reset
+    return super().reset(seed=seed, options=options)
+  File "/Users/linji/miniconda3/envs/torch/lib/python3.9/site-packages/gymnasium/core.py", line 333, in reset
+    return self.env.reset(seed=seed, options=options)
+  File "/Users/linji/miniconda3/envs/torch/lib/python3.9/site-packages/gymnasium/wrappers/common.py", line 293, in reset
+    return env_reset_passive_checker(self.env, seed=seed, options=options)
+  File "/Users/linji/miniconda3/envs/torch/lib/python3.9/site-packages/gymnasium/utils/passive_env_checker.py", line 185, in env_reset_passive_checker
+    result = env.reset(**kwargs)
+  File "/Users/linji/Downloads/test_torch/custom_mountain_car.py", line 45, in reset
+    if 'x_init' in options and 'y_init' in options:
+TypeError: argument of type 'NoneType' is not iterable
